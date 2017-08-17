@@ -1,0 +1,24 @@
+.post-editor {
+}
+
+.post-editor-button {
+  float: right;
+  margin-top: 1em;
+  padding: 20px;
+  font-weight: bold;
+  background: #ea4c53;
+}
+.panel-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+
+@media(max-width: 900px) {
+ 
+
+  .post-body {
+    margin: 1em;
+  }
+}

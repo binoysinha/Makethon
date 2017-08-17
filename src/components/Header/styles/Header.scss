@@ -1,0 +1,30 @@
+.header {
+    background: #ea4c53;
+    height: 5em;
+    line-height: 4em;
+    text-align: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    padding: 5px 12px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 600;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    img {
+        width: 70px;
+        height: 50px;
+    }
+    
+}
+.header-text {
+    text-align: center;
+}
